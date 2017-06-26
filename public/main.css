@@ -1,0 +1,68 @@
+body {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: #277dc4;
+  cursor: pointer;
+}
+
+.container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.directory {
+  flex: 20%;
+  max-width: 240px;
+  border: 2px solid lightgray;
+  margin: 5px 10px;
+  text-align: left;
+  padding: 2px 10px;
+}
+.directory-text {
+  width: 240px;
+}
+
+h3 {
+  color: #277dc4;
+}
+p {
+  color: #a60c14;
+}
+h4 {
+  color: black;
+}
+.bold {
+  font-size: 20px;
+  font-weight: 900;
+}
+.profile {
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#addRadius {
+  flex: 20%;
+  border-radius: 50% 50%;
+}
+
+.profile-top {
+  max-width: 410px;
+  flex: 60%;
+}
+.profile-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 700px;
+}
+
+/* 
+/
+Working on #pic border radius and layout/flexing profile page.
+/
+*/

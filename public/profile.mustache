@@ -12,8 +12,8 @@
 
 <body>
     <div class="profile">
-        <div  id="addRadius">
-        <img src="{{avatar}}">
+        <div>
+        <img id="addRadius" src="{{avatar}}">
         </div>
         <div class="profile-top">
         <h1>{{name}}</h1>
@@ -32,16 +32,16 @@
             {{#email}} {{.}} {{/email}}&nbsp;|&nbsp; {{#phone}} {{.}} {{/phone}}
         </div>
         <div class="profile-bottom">
-            <div>
-            <h4 class="bold">Education</h4>
-            {{#university}} {{.}} {{/university}}
-            </div>
-            <div>
-            <h4 class="bold">Skills</h4>
-            {{#skills}} {{.}} {{/skills}}
-            </div>
+            
+            <ul>
+            <li><h4 class="bold">Education</h4></li>
+            <li><h4 class="bold">Skills</h4></li>
+            </ul>
+            <ul id="adjust-list">
+            <li>{{#university}} {{.}} {{/university}}</li>
+            <li>{{#skills}} {{.}} {{/skills}}</li>
+            </ul>
         </div>
-
     </div>
 </body>
 

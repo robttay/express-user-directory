@@ -12,7 +12,7 @@ a:link, a:visited {
   width: 90%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: baseline;
 }
 .directory {
   flex: 20%;
@@ -46,23 +46,37 @@ h4 {
   justify-content: center;
 }
 #addRadius {
-  flex: 20%;
-  border-radius: 50% 50%;
+  margin-left: 20px;
+  border-radius: 50%;
 }
 
 .profile-top {
   max-width: 410px;
   flex: 60%;
+  margin-left: 20px;
 }
 .profile-bottom {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  margin: 5px, 20px;
+  text-align: right;
+  list-style-type: none;
+}
+ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 700px;
+  justify-content: space-around;
+  max-width: 200px;
 }
-
-/* 
-/
-Working on #pic border radius and layout/flexing profile page.
-/
-*/
+li {
+  width: 180px;
+  list-style-type: none;
+  margin-left: 20px;
+}
+#adjust-list {
+  position: relative;
+  top: 30px;
+  width: 120px;
+  text-align: left;
+}
